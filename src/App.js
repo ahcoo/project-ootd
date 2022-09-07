@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Popup from "./components/Pop-up";
 import NoticeBoard from "./board/NoticeBoard";
 import NoticePost from "./board/NoticePost";
+import NoticeContent from "./board/NoticeContent";
 
 // WGDP 페이지 prdno 에러
 // Woman 페이지 state 배열로 못 넣는지 물어보기
@@ -38,7 +39,7 @@ function App() {
   return (
     <div>
       <Topbar />
-      <MainPG />
+      <NoticeContent />
       <Footer />
     </div>
   );
