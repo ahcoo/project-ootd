@@ -20,7 +20,7 @@ const NoticeListItem = ({
   return (
     <li className="NoticeListItem">
       <div
-        className={cn("checkbox", { checked: checked })}
+        className={cn("checkbox1", { checked: checked })}
         onClick={() => {
           onToggle(id);
         }}
