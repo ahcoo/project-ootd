@@ -16,7 +16,7 @@ const NoticeListItem = ({
   setSelectedNotice,
 }) => {
   const { id, text, checked } = Notice;
-  //console.log(`${id}번 NoticelistItem에서 Notice를 출력함`, Notice);
+  // console.log(`${id}번 NoticelistItem에서 Notice를 출력함`, Notice);
   return (
     <li className="NoticeListItem">
       <div
